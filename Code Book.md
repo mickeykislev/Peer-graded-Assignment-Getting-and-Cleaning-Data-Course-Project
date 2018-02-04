@@ -50,60 +50,81 @@ subject_train.txt
    1.3. WALKING_DOWNSTAIRS
    1.4. SITTING
    1.5. STANDING
-   1.6 LAYING
+   1.6. LAYING
 
-### The measurements of the tidy dataset run_analysis.R:
+### The measurements of the tidy dataset run_analysis.R (86 indicators in the dataset):
 These were described in numerical figures:
-3.	TimeBodyAccelerometerMeanX
-4.	TimeBodyAccelerometerMeanY
-5.	TimeBodyAccelerometerMeanZ
-6.	TimeGravityAccelerometerMeanX
-7.	TimeGravityAccelerometerMeanY
-8.	TimeGravityAccelerometerMeanZ
-9.	TimeBodyAccelerometerJerkMeanX
-10.	TimeBodyAccelerometerJerkMeanY
-11.	TimeBodyAccelerometerJerkMeanZ
-12.	TimeBodyGyroscopeMeanX
-13.	TimeBodyGyroscopeMeanY
-14.	TimeBodyGyroscopeMeanZ
-15.	TimeBodyGyroscopeJerkMeanX
-16.	TimeBodyGyroscopeJerkMeanY
-17.	TimeBodyGyroscopeJerkMeanZ
-18.	TimeBodyAccelerometerMagnitudeMean
-19.	TimeGravityAccelerometerMagnitudeMean
-20.	TimeBodyAccelerometerJerkMagnitudeMean
-21.	TimeBodyGyroscopeMagnitudeMean
-22.	TimeBodyGyroscopeJerkMagnitudeMean
-23.	FrequencyuencyBodyAccelerometerMeanX
-24.	FrequencyuencyBodyAccelerometerMeanY
-25.	FrequencyuencyBodyAccelerometerMeanZ
-26.	FrequencyuencyBodyAccelerometerMeanFrequencyX
-27.	FrequencyuencyBodyAccelerometerMeanFrequencyY
-28.	FrequencyuencyBodyAccelerometerMeanFrequencyZ
-29.	FrequencyuencyBodyAccelerometerJerkMeanX
-30.	FrequencyuencyBodyAccelerometerJerkMeanY
-31.	FrequencyuencyBodyAccelerometerJerkMeanZ
-32.	FrequencyuencyBodyAccelerometerJerkMeanFrequencyX
-33.	FrequencyuencyBodyAccelerometerJerkMeanFrequencyY
-34.	FrequencyuencyBodyAccelerometerJerkMeanFrequencyZ
-35.	FrequencyuencyBodyGyroscopeMeanX
-36.	FrequencyuencyBodyGyroscopeMeanY
-37.	FrequencyuencyBodyGyroscopeMeanZ
-38.	FrequencyuencyBodyGyroscopeMeanFrequencyX
-39.	FrequencyuencyBodyGyroscopeMeanFrequencyY
-40.	FrequencyuencyBodyGyroscopeMeanFrequencyZ
-41.	FrequencyuencyBodyAccelerometerMagnitudeMean
-42.	FrequencyuencyBodyAccelerometerMagnitudeMeanFrequency
-43.	FrequencyuencyBodyAccelerometerJerkMagnitudeMean
-44.	FrequencyuencyBodyAccelerometerJerkMagnitudeMeanFrequency
-45.	FrequencyuencyBodyGyroscopeMagnitudeMean
-46.	FrequencyuencyBodyGyroscopeMagnitudeMeanFrequency
-47.	FrequencyuencyBodyGyroscopeJerkMagnitudeMean
-48.	FrequencyuencyBodyGyroscopeJerkMagnitudeMeanFrequency
-49.	AngleTimeBodyAccelerometerMeanGravity
-50.	AngleTimeBodyAccelerometerJerkMeanGravityMean
-51.	AngleTimeBodyGyroscopeMeanGravityMean
-52.	AngleTimeBodyGyroscopeJerkMeanGravityMean
-53.	AngleXGravityMean
-54.	AngleYGravityMean
-55.	AngleZGravityMean
+* TimeBodyAccelerometerMeanX/Y/Z - int, Numeric, Mean of the index between -1 to 1. 
+* TimeBodyAccelerometerStandardDeviationX/Y/Z - int, Numeric, Standard Deviation of the index between -1 to 1. 
+
+* TimeGravityAccelerometerMeanX/Y/Z - int, Numeric, Mean of the index between -1 to 1.
+* TimeGravityAccelerometerStandardDeviationX/Y/Z - int, Numeric, Standard Deviation of the index between -1 to 1. 
+
+* TimeBodyAccelerometerJerkMeanX/Y/Z - int, Numeric, Mean of the index between -1 to 1.
+* TimeBodyAccelerometerJerkStandardDeviationX/Y/Z - int, Numeric, Standard Deviation of the index between -1 to 1. 
+
+* TimeBodyGyroscopeMeanX/Y/Z - int, Numeric, Mean of the index between -1 to 1.
+* TimeBodyGyroscopeStandardDeviationX/Y/Z - int, Numeric, Standard Deviation of the index between -1 to 1. 
+
+* TimeBodyGyroscopeJerkMeanX/Y/Z - int, Numeric, Mean of the index between -1 to 1.
+* TimeBodyGyroscopeJerkStandardDeviationX/Y/Z - int, Numeric, Standard Deviation of the index between -1 to 1. 
+
+* TimeBodyAccelerometerMagnitudeMean - int, Numeric, Mean of the index between -1 to 1.
+* *TimeBodyAccelerometerMagnitudeStandardDeviation - int, Numeric, Standard Deviation of the index between -1 to 1. 
+
+* TimeGravityAccelerometerMagnitudeMean - int, Numeric, Mean of the index between -1 to 1.
+* TimeGravityAccelerometerMagnitudeStandardDeviation - int, Numeric, Standard Deviation of the index between -1 to 1.
+
+* TimeBodyAccelerometerJerkMagnitudeMean - int, Numeric, Mean of the index between -1 to 1.
+* TimeBodyAccelerometerJerkMagnitudeStandardDeviation - int, Numeric, Standard Deviation of the index between -1 to 1.
+
+* TimeBodyGyroscopeMagnitudeMean - int, Numeric, Mean of the index between -1 to 1.
+* TimeBodyGyroscopeMagnitudeStandardDeviation - int, Numeric, Standard Deviation of the index between -1 to 1.
+
+* TimeBodyGyroscopeJerkMagnitudeMean - int, Numeric, Mean of the index between -1 to 1.
+* TimeBodyGyroscopeJerkMagnitudeStandardDeviation - int, Numeric, Standard Deviation of the index between -1 to 1.
+
+* FrequencyuencyBodyAccelerometerMeanX/Y/Z - int, Numeric, Mean of the index between -1 to 1.
+* FrequencyuencyBodyAccelerometerStandardDeviationX/Y/Z - int, Numeric, Standard Deviation of the index between -1 to 1. 
+
+* FrequencyuencyBodyAccelerometerMeanFrequencyX/Y/Z - int, Numeric, Mean of the index between -1 to 1.
+
+* FrequencyuencyBodyAccelerometerJerkMeanX/Y/Z - int, Numeric, Mean of the index between -1 to 1.
+* FrequencyuencyBodyAccelerometerJerkStandardDeviationX/Y/Z - int, Numeric, Standard Deviation of the index between -1 to 1.
+
+* FrequencyuencyBodyAccelerometerJerkMeanFrequencyX/Y/Z - int, Numeric, Mean of the index between -1 to 1.
+
+* FrequencyuencyBodyGyroscopeMeanX/Y/Z - int, Numeric, Mean of the index between -1 to 1.
+* FrequencyuencyBodyGyroscopeStandardDeviationX/Y/Z - int, Numeric, Standard Deviation of the index between -1 to 1.
+
+* FrequencyuencyBodyGyroscopeMeanFrequencyX/Y/Z - int, Numeric, Mean of the index between -1 to 1.
+
+* FrequencyuencyBodyAccelerometerMagnitudeMean - int, Numeric, Mean of the index between -1 to 1.
+* FrequencyuencyBodyAccelerometerMagnitudeStandardDeviation - int, Numeric, Standard Deviation of the index between -1 to 1.
+
+* FrequencyuencyBodyAccelerometerMagnitudeMeanFrequency - int, Numeric, Mean of the index between -1 to 1.
+
+* FrequencyuencyBodyAccelerometerJerkMagnitudeMean - int, Numeric, Mean of the index between -1 to 1.
+* FrequencyuencyBodyAccelerometerJerkMagnitudeStandardDeviation - int, Numeric, Standard Deviation of the index between -1 to 1.
+
+* FrequencyuencyBodyAccelerometerJerkMagnitudeMeanFrequency - int, Numeric, Mean of the index between -1 to 1.
+
+* FrequencyuencyBodyGyroscopeMagnitudeMean - int, Numeric, Mean of the index between -1 to 1.
+* FrequencyuencyBodyGyroscopeMagnitudeStandardDeviation - int, Numeric, Standard Deviation of the index between -1 to 1.
+
+* FrequencyuencyBodyGyroscopeMagnitudeMeanFrequency - int, Numeric, Mean of the index between -1 to 1.
+
+* FrequencyuencyBodyGyroscopeJerkMagnitudeMean - int, Numeric, Mean of the index between -1 to 1.
+* FrequencyuencyBodyGyroscopeJerkMagnitudeStandardDeviation - int, Numeric, Standard Deviation of the index between -1 to 1.
+
+* FrequencyuencyBodyGyroscopeJerkMagnitudeMeanFrequency - int, Numeric, Mean of the index between -1 to 1.
+
+* AngleTimeBodyAccelerometerMeanGravity - int, Numeric, Mean of the index between -1 to 1.
+
+* AngleTimeBodyAccelerometerJerkMeanGravityMean - int, Numeric, Mean of the index between -1 to 1.
+
+* AngleTimeBodyGyroscopeMeanGravityMean - int, Numeric, Mean of the index between -1 to 1.
+
+* AngleTimeBodyGyroscopeJerkMeanGravityMean - int, Numeric, Mean of the index between -1 to 1.
+
+* AngleX/Y/ZGravityMean - int, Numeric, Mean of the index between -1 to 1.
